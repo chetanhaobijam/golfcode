@@ -27,7 +27,13 @@ main {
 section {
 	background: #fff;
 	box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.3);
-	width: 50vw;
+	width: 90vw;
+}
+
+@media screen and (min-width: 567px) {
+	section {
+		max-width: 600px;
+	}
 }
 
 section h1 {
@@ -83,7 +89,12 @@ section h1 {
 	border: 4px solid var(--success);
 	outline: none;
 	opacity: 0.8;
-	margin-right: 55px;
+}
+
+@media screen and (min-width: 567px) {
+	#hittheball {
+		margin-right: 50px;
+	}
 }
 
 #hittheball:hover {
@@ -97,7 +108,12 @@ section h1 {
 
 .stroke {
 	color: var(--green0);
-	margin-right: 40px;
+}
+
+@media screen and (min-width: 567px) {
+	.stroke {
+		margin-right: 40px;
+	}
 }
 
 .stroke span:first-child{
