@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Golf Code Game</title>
+	<meta charset="utf-8">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<!-- My Custom  CSS -->
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<!-- Howler JS -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.0/howler.min.js"></script>
+</head>
+<body>
+	<main>
+		<section>
+		<h1>Golf Code Game</h1>
+	<div class="par py-4">
+		<button id="setpar" class="btn rounded">Set Par</button>
+		<div>Par <span id="parvalue">4</span></div>
+	</div>
+	<div class="ball d-flex flex-row justify-content-around">
+		<button id="hittheball" class="btn p-5 rounded-circle">Hit The Ball</button>
+		<div class="stroke d-flex flex-column"><span>Stroke</span><span id="strokevalue" class="text-center">5</span></div>
+	</div>
+	
+	<div class="result d-flex flex-column justify-content-center align-items-center">
+		<button id="displayresult" class="my-3 p-2 btn rounded">Display Result</button>
+		<div id="actualresult" class="animation"></div>
+	</div>
+	<div id="remark" class="text-center animation mb-4"></div>
+	</section>
+	</main>
+	
+	
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
